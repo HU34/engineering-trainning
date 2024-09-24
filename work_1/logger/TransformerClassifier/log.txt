@@ -1,0 +1,24 @@
+2024-09-04 16:40:39,393 - root - INFO - ----Training Mode----
+2024-09-04 16:40:39,393 - root - INFO - Training set: (504, 224, 224, 3), labels=[('0', 500), ('1', 4)]
+2024-09-04 16:40:39,393 - root - INFO - Val set: (118, 224, 224, 3), labels=[('0', 47), ('1', 71)]
+2024-09-04 16:40:39,393 - root - INFO - Test set: (178, 224, 224, 3), labels=[('0', 72), ('1', 106)]
+2024-09-04 16:40:39,686 - root - INFO - Sampling mode:over_sampler, train_num:(1000, 224, 224, 3),label:[('0', 500), ('1', 500)]
+2024-09-04 16:40:39,707 - root - INFO - Device: cuda:0
+2024-09-04 16:41:05,301 - root - INFO - ----Training Mode----
+2024-09-04 16:41:05,302 - root - INFO - Training set: (504, 224, 224, 3), labels=[('0', 500), ('1', 4)]
+2024-09-04 16:41:05,302 - root - INFO - Val set: (118, 224, 224, 3), labels=[('0', 47), ('1', 71)]
+2024-09-04 16:41:05,304 - root - INFO - Test set: (178, 224, 224, 3), labels=[('0', 72), ('1', 106)]
+2024-09-04 16:41:05,660 - root - INFO - Sampling mode:over_sampler, train_num:(1000, 224, 224, 3),label:[('0', 500), ('1', 500)]
+2024-09-04 16:41:05,677 - root - INFO - Device: cuda:0
+2024-09-04 16:41:30,431 - root - INFO - [Epoch=1/50]Train set: Avg_loss=0.4521, Avg_accuracy=58.4000%
+2024-09-04 16:41:31,030 - root - INFO - [Epoch=1/50]Validation set: Avg_loss=0.3494, Avg_accuracy=77.1186%, AUC=0.7714
+2024-09-04 16:41:31,030 - root - INFO - >>>>>>>>>>>>>>Best model is 1.pkl
+2024-09-04 16:41:46,723 - root - INFO - [Epoch=2/50]Train set: Avg_loss=0.2223, Avg_accuracy=83.0000%
+2024-09-04 16:41:47,304 - root - INFO - [Epoch=2/50]Validation set: Avg_loss=0.8963, Avg_accuracy=66.1017%, AUC=0.7429
+2024-09-04 16:42:02,054 - root - INFO - [Epoch=3/50]Train set: Avg_loss=0.1479, Avg_accuracy=89.7000%
+2024-09-04 16:42:02,650 - root - INFO - [Epoch=3/50]Validation set: Avg_loss=2.0152, Avg_accuracy=59.3220%, AUC=0.8313
+2024-09-04 16:42:02,650 - root - INFO - >>>>>>>>>>>>>>Best model is 3.pkl
+2024-09-04 16:42:18,384 - root - INFO - [Epoch=4/50]Train set: Avg_loss=0.0147, Avg_accuracy=99.3000%
+2024-09-04 16:42:18,968 - root - INFO - [Epoch=4/50]Validation set: Avg_loss=3.6012, Avg_accuracy=51.6949%, AUC=0.6859
+2024-09-04 16:42:33,768 - root - INFO - [Epoch=5/50]Train set: Avg_loss=0.0386, Avg_accuracy=97.9000%
+2024-09-04 16:42:34,360 - root - INFO - [Epoch=5/50]Validation set: Avg_loss=4.6443, Avg_accuracy=42.3729%, AUC=0.5694
