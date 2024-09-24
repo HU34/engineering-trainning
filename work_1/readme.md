@@ -9,7 +9,7 @@
 
 **代码解释**：  
 >data文件夹为数据文件夹
-LSTMClassifier文件夹为模型权重和训练图像文件夹
+>LSTMClassifier文件夹为模型权重和训练图像文件夹
 logger文件夹为模型训练的日志文件  
 dataset.py为数据的处理方法  
 model.py为模型代码文件  
